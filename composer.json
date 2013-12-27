@@ -1,0 +1,31 @@
+{
+    "name": "chrisguitarguy/broadcast",
+    "description": "Send your users messages",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/chrisguitarguy/Broadcast",
+    "authors": [{
+        "name": "Christopher Davis",
+        "homepage": "http://christopherdavis.me"
+    }],
+    "support": {
+        "issues": "https://github.com/chrisguitarguy/Broadcast/issue",
+        "source": "https://github.com/chrisguitarguy/Broadcast"
+    },
+    "require": {
+        "php": ">=5.4",
+        "psr/log": "~1.0"
+    },
+    "require-dev": {
+        "swiftmailer/swiftmailer": "5.*",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "suggest": {
+        "swiftmailer/swiftmailer": "Send your users messages via email"
+    },
+    "autoload": {
+        "psr-0": {
+            "Chrisguitarguy\\Broadcast": "src/"
+        }
+    }
+}
